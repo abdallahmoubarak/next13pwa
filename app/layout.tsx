@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-          <div className="max-w-xl mx-auto">{children}</div>
+          <div className="max-w-xl mx-auto p-4">{children}</div>
         </Providers>
       </body>
     </html>

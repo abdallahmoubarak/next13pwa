@@ -15,8 +15,7 @@ const getCountriesQuery = gql`
 
 const getCountries = async () => {
   const res: any = await graphQLClient.request(getCountriesQuery);
-  console.log(res);
-  return res?.countries;
+  return res?.countries.slice(0, 20);
 };
 
 export const useGetCountries = () => {
