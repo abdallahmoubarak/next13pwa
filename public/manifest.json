@@ -1,0 +1,77 @@
+{
+  "name": "Water Monster",
+  "short_name": "Water Monster",
+  "display": "standalone",
+  "theme_color": "#40A3C0",
+  "background_color": "#FFFFFF",
+  "description": "Control your water flow",
+  "start_url": "/",
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": ["business", "lifestyle", "social", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+
+    {
+      "src": "/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "containers page",
+      "short_name": "business",
+      "description": "open containers page",
+      "url": "/",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "id": "WaterMonster2023",
+  "lang": "en",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "iarc_rating_id": "3+",
+  "prefer_related_applications": true,
+  "edge_side_panel": {
+    "preferred_width": 3
+  },
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "/screenshots/1.png",
+      "size": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/2.png",
+      "size": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/3.png",
+      "size": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/4.png",
+      "size": "750x1334",
+      "type": "image/png"
+    }
+  ]
+}
